@@ -1,3 +1,5 @@
+import 'dart:math';
+
 // Define a function
 printNumber(num number){
   print("The number is $number");
@@ -5,6 +7,6 @@ printNumber(num number){
 
 //This is where the App starts executing
 main(){
-  var number = 42;
+  var number = Random().nextInt(100);
   printNumber(number);
 }
