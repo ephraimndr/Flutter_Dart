@@ -1,0 +1,28 @@
+# # # #    I M P O R T A N T     N O T E S    # # # #
+
+- Everything you can place inside a variable is an Object, 
+    and every object is an instance of a class.
+
+- Even numbers and functions are objects. 
+    All objects inherit from the Object class.
+
+- Specifying static types is optional but is preferetial as it clarifies
+    your intent and enables static checking by dev tools.
+
+- Dart supports top-level functions, like main(), as well as functions tied
+    to a class or object (static and instance methods, respectively)
+
+- Similarly, Dart supports top-level variables, as well as variables tied to
+    a class or object (static and instance variables).
+
+    Instance variables are sometimes known as fields or properties.
+
+- Sometimes it matters whether something is an expression or a statement.
+
+- Production mode ignores assert statements and static types.
+
+- Uninitialized variables are always null to begin with.
+
+- A final variable can be set only once.
+
+- A const variable is a compile-time constatnt.
